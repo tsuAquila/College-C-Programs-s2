@@ -2,7 +2,7 @@
 
 void main()
 {
-    int matA[5][5], matB[5][5], matC[5][5];
+    int matA[10][10], matB[10][10], matC[10][10];
     int a, r, c;
     printf("Enter the corresponding value for the operation (1 = Add, 2 = Subtract, 3 = Multiply, 4 = Inverse):");
     scanf("%d",&a);
