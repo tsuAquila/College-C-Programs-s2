@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 
 void main()
 {
-    char a[30], b[10];
+    char a[20], b[20];
     int i=0, j=0;
 
     printf("Enter the first string: ");
@@ -27,9 +26,8 @@ void main()
         j++;
     }
 
-    a[i-1] = '\0';
+    a[i-2] = '\0';
 
-    j = 0;
     printf("The concatenated string is:\n");
     puts(a);
 }
